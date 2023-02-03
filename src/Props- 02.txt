@@ -1,0 +1,7 @@
+What happens if no `name` prop is passed to the `Welcome` component? Can you set a default value for the `name` prop?
+Non viene visualizzato niente se non dai un nome a name
+Aggiungi una proprietà statica di default
+Welcome.defaultProps={
+    name: "nomedidefault"
+}
+oppure con il nullish ?? 
